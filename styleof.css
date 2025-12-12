@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(110, 54, 222);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buisness-card{
+    width: 450px;
+    height: 700px;
+    background-color: rgb(207, 221, 225);
+    border-radius: 12px;
+    box-shadow: 8px 8px 15px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    
+    
+}
+.box-area{
+    border-radius: 9px; 
+    box-shadow: 6px 7px 10px 3px rgba(40, 64, 150, 0.5);
+    display: flex;
+    flex-direction: column;    
+}
+
+.box-text{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: rgb(179, 16, 108);
+    text-align: center;
+    margin-top: 25px;
+    background-color: rgb(227, 237, 237);
+}
+
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+    background-image: url('imageop.jpg');
+    border: 4px solid rgb(234, 221, 221);
+    background-size: cover;
+}
+
+.info-card {
+  width: 100%;
+  max-width: 700px;
+  text-align: left;
+  padding: 30px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin-left: 20px;
+}
+
+.row {
+  /* display: flex; */
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin: 12px 12px 12px;
+}
+
+.label {
+  font-weight: bold;
+  color: rgb(0, 12, 139);
+  width: 40%;
+  margin: 4px 4px 4px;
+}
+
+.value {
+  color: rgb(10, 45, 3);
+  width: 60%;
+  justify-content: space-evenly;
+}
+
+.socials i{
+  font-size: 40px;
+  
+  justify-content: space-evenly;
+
+margin-left: 30px;
+  
+}
